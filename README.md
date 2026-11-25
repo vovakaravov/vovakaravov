@@ -9,18 +9,19 @@ I build tools that remove friction at scale: native GPU-accelerated Linux deskto
 ## Currently
 
 - Building & optimizing Unity 3D environments, character rigs, and simulation-ready asset catalogs for embodied AI at **VLGE (DigitalVillage)**.
-- Shipping a native, zero-Electron Linux desktop suite in **Rust + GPUI** styled in **Kanagawa Dragon**.
+- Shipping a native, zero-Electron **Linux & Android** suite in **Rust + GPUI** (`gpui-mobile`) styled in **Kanagawa Dragon**.
 
 ---
 
-## Native Rust + GPUI Desktop Suite
+## Native Rust + GPUI Suite
 
 | App | What It Does | Highlights |
 | :--- | :--- | :--- |
-| **[VKarma](https://github.com/vovakaravov/VKarma)** | Markdown Vault & 12-Format Workspace | Live editable tables, 6-handle image resize gizmos & float wrapping, Fountain/Typst studios, `ironcalc` spreadsheets, native PDF preview, zero Chromium overhead |
-| **[Vibes](https://github.com/vovakaravov/Vibes)** | Radio, Audio-Only YouTube & Lyrics Deck | 50,000+ RadioBrowser stations, offline `~/Music` library with `lofty` tag & LRCLIB lyrics embedding, in-process `mpv` `lavfi` visualizer, Wayland click-through lyrics overlay |
+| **[VKarma](https://github.com/vovakaravov/VKarma)** | Markdown Vault, 12-Format Workspace & Android Companion | Shared `vkarma-core` engine for Linux desktop & Android (`mobile/`), live editable tables, 6-handle image resize gizmos & float wrapping, drag-to-reorder tabs, unified floating find bar, Fountain/Typst studios, `ironcalc` spreadsheets, native PDF & EPUB preview |
+| **[Bookworm](https://github.com/vovakaravov/Bookworm)** | Digital Book Library & EPUB Reader (Linux + Android) | Shared `bookworm-core` crate across desktop and Android, cover & online metadata lookup, distraction-free reader with highlights, note jumps & Markdown export, Syncthing conflict-safe syncing across PC, phone, and tablet |
+| **[Vibes](https://github.com/vovakaravov/Vibes)** | Radio, Audio-Only YouTube & Lyrics Deck | 50,000+ RadioBrowser stations, virtualized offline `~/Music` library with frame-aware LRU art cache, `lofty` tag & LRCLIB lyrics embedding, in-process `mpv` `lavfi` visualizer, Wayland click-through lyrics overlay |
 | **[Git Out](https://github.com/vovakaravov/git-out)** | *"I'm not paying for GitKraken."* | GPU-rendered Bezier commit graph, drag-to-reorder multi-repo tabs, WIP staging & diffs, live `.git` watcher, full `gh` PR/Actions/Issues browser |
-| **[UmuBox](https://github.com/vovakaravov/UmuBox)** | Wine / Proton & GE-Proton Manager | Isolated prefixes via `umu-run`, PE `.exe`/`.dll` icon extraction, KDE `.desktop` sync, SHA-512 GE-Proton installs, NTSync/MangoHud toggles & headless CLI |
+| **[UmuBox](https://github.com/vovakaravov/UmuBox)** | Wine / Proton & GE-Proton Manager | Isolated prefixes via `umu-run`, PE `.exe`/`.dll` icon extraction, KDE `.desktop` sync, host-arch-aware SHA-512 GE-Proton installs, NTSync/MangoHud toggles & headless CLI |
 
 ---
 
